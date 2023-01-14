@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.body-background {
+    background: linear-gradient(#bdc3c7, #2c3e50);
+}
+
+.header {
+    font-family: 'Pacifico', cursive;
+    margin-top: 18px;
+}
+
+.instruction {
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 20px;
+}
+
+#camera {
+    width: 500px;
+    height: 400px;
+    border: 5px ridge gray;
+}
+
+label {
+    margin-top: 15px;
+    font-size: medium;
+    color: seashell;
+}
+
+.one-line {
+    display: inline;
+}
+
+img {
+    border: 10px ridge gray;
+    width: 49%;
+    margin-top: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: inline-block;
+    margin: 4px;
+}
+
+img:hover {
+    border-radius: 50px;
+    width: 46%;
+}
+
+.copyright_footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 32px;
+    text-align: center;
+    background-color: seashell;
+    cursor: default;
+    padding-top: 5px;
+}
